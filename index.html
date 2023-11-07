@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Document</title>
+	<!--fonts-->
+	<link href='#css?family=Jockey+One' rel='stylesheet' type='text/css'>
+	<link href='#css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+		rel='stylesheet' type='text/css'>
+	<!--//fonts-->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link rel="stylesheet" href="./font/iconfont.css">
+	<!-- for-mobile-apps -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Peak Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+	<script
+		type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<!-- js -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src="js/modernizr.custom.97074.js"></script>
+	<!-- js -->
+	<!-- start-smoth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+			});
+		});
+	</script>
+	<!-- start-smoth-scrolling -->
+</head>
+
+<body>
+	<!-- banner -->
+	<div id="home" class="banner">
+		<div class="container">
+			<div class="banner-grids">
+				<div class="col-md-4 navigation">
+					<div class="nav-left">
+						<div class="grid__item color-4">
+
+
+							<a class="link link--kumya" href="#home"><span data-letters="NKU"
+									class="maintit">NKU快递收发管理系统</span></a>
+						</div>
+					</div>
+					<div class="nav-right">
+						<span class="menu"><img src="images/menu.png" alt="" /></span>
+						<nav class="cl-effect-1">
+							<ul class="nav1">
+								<li><a class="scroll" href="#home">Home</a></li>
+								<li><a class="scroll" href="#about">关于我们</a></li>
+								<li><a class="scroll" href="#portfolio">业务</a></li>
+								<li><a class="scroll" href="#services">特色服务</a></li>
+								<li><a class="scroll" href="#contact">联系我们</a></li>
+							</ul>
+						</nav>
+						<!-- script for menu -->
+						<script>
+							$("span.menu").click(function () {
+								$("ul.nav1").slideToggle(300, function () {
+									// Animation complete.
+								});
+							});
+						</script>
+						<!-- //script for menu -->
+
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="col-md-8 banner-image text-center">
+					<img src="images/banner.png" alt="" />
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- about -->
+	<div id="about" class="about">
+		<div class="container">
+			<div class="about-info">
+				<h3>关于我们</h3>
+				<h4>公司简介</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+					ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+					ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+			<div class="about-grids">
+				<div class="col-md-6 about-grid">
+					<h4>公司发展历程</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						Ut enim ad minim veniam, quis nostrud exercitation
+						ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<div class="col-md-6 about-grid">
+					<h4>我们的目标</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						Ut enim ad minim veniam, quis nostrud exercitation
+						ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //about -->
+	<div id="portfolio" class="gallery">
+		<div class="container">
+			<script src="js/jquery.chocolat.js"></script>
+			<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+			<!--light-box-files -->
+			<script type="text/javascript" charset="utf-8">
+				$(function () {
+					$('.gallery a').Chocolat();
+				});
+			</script>
+			<h3>业务</h3>
+			<section>
+				<div class="items">
+					<ul id="da-thumbs" class="da-thumbs">
+						<li>
+							<a href="" rel="title" class="b-link-stripe b-animate-go  thickbox" id="good1">
+								<img src="./images/list1.png" alt="" />
+								<div>
+									<h5>入库信息</h5>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="images/a2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox" id="good3">
+								<img src="images/list2.png" alt="" />
+								<div>
+									<h5>取件</h5>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="images/a3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+								<img src="images/list3.png" alt="" />
+								<div>
+									<h5>寄送</h5>
+
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="images/a4.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+								<img src="images/list4.png" alt="" />
+								<div>
+									<h5>国际业务</h5>
+
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="images/a5.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+								<img src="images/list5.png" alt="" />
+								<div>
+									<h5>人员管理</h5>
+
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="images/a6.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+								<img src="images/list6.png" alt="" />
+								<div>
+									<h5>站点分配</h5>
+
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="images/a7.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox" id="good2">
+								<img src="images/list7.png" alt="" />
+								<div>
+									<h5>公司规章</h5>
+
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="images/a1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+								<img src="images/list8.png" alt="" />
+								<div>
+									<h5>货物更替记录</h5>
+
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="images/a2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+								<img src="images/list9.png" alt="" />
+								<div>
+									<h5>敬请期待</h5>
+
+								</div>
+							</a>
+						</li>
+						<div class="clearfix"> </div>
+					</ul>
+					<!-- items-1 -->
+					<div class="items-1 active">
+						<i id="off"><span class="iconfont icon-guanbi"></span></i>
+						<p>货架入库信息</p>
+						<div class="keep">
+							<div class="st-1">
+								<p>序号</p>
+								<ul id="index1">
+									<li>1</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li>6</li>
+									<li>7</li>
+									<li>8</li>
+									<li>9</li>
+									<li>10</li>
+								</ul>
+							</div>
+							<div class="st-2">
+								<p>所在货架</p>
+								<ul id="index2">
+									<li>1-1</li>
+									<li>1-2</li>
+									<li>3-3</li>
+									<li>4-5</li>
+									<li>5-1</li>
+									<li>6-2</li>
+									<li>7-5</li>
+									<li>8-4</li>
+									<li>1-3</li>
+									<li>2-4</li>
+								</ul>
+							</div>
+							<div class="st-3">
+								<p> 入库时间</p>
+								<ul id="index3">
+									<li>2023-9-1</li>
+									<li>2023-9-1</li>
+									<li>2023-9-2</li>
+									<li>2023-9-3</li>
+									<li>2023-9-5</li>
+									<li>2023-9-6</li>
+									<li>2023-9-7</li>
+									<li>2023-9-8</li>
+									<li>2023-9-10</li>
+									<li>2023-9-15</li>
+								</ul>
+							</div>
+							<div class="st-4">
+								<p> 入库人员</p>
+								<ul index4>
+									<li>xxx</li>
+									<li>xxx</li>
+									<li>xxx</li>
+									<li>xxx</li>
+									<li>xxx</li>
+									<li>xxx</li>
+									<li>xxx</li>
+									<li>xxx</li>
+									<li>xxx</li>
+									<li>xxx</li>
+								</ul>
+							</div>
+							<div class="st-5">
+								<p>单号</p>
+								<ul id="standerd">
+									<li>123456789</li>
+									<li>1223423543</li>
+									<li>243325434</li>
+									<li>13213123</li>
+									<li>576575765</li>
+									<li>456456757</li>
+									<li>5765756456</li>
+									<li>867868768678</li>
+									<li>2342343254</li>
+									<li>234234324534</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- items-2 -->
+					<div class="items-2 active">
+						<i id="off-2"><span class="iconfont icon-guanbi"></span></i>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pla
+							ceat, ut non error est fugiat vitae temporibus distinctio similique r
+							eiciendis beatae molestiae doloribus qui unde ipsam deserunt labore cupiditate quod. Nisi.
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pla
+							ceat, ut non error est fugiat vitae temporibus distinctio similique r
+							eiciendis beatae molestiae doloribus qui unde ipsam deserunt labore cupiditate quod. Nisi.
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pla
+							ceat, ut non error est fugiat vitae temporibus distinctio similique r
+							eiciendis beatae molestiae doloribus qui unde ipsam deserunt labore cupiditate quod. Nisi.
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pla
+							ceat, ut non error est fugiat vitae temporibus distinctio similique r
+							eiciendis beatae molestiae doloribus qui unde ipsam deserunt labore cupiditate quod. Nisi.
+						</p>
+					</div>
+					<div class="items-3 active ">
+						<i id="off-3"><span class="iconfont icon-guanbi"></span></i>
+						<div style="display: flex; width: 60%; margin: 0 auto;">
+							<input type="text" placeholder="请输入快递单号或取件码查询..." id="input">
+							<button id="search">搜索</button>
+
+						</div>
+						<div class="keep" style="margin-top: 20px;">
+							<div class="st-1">
+								<p>序号</p>
+								<ul id="index5">
+
+								</ul>
+							</div>
+							<div class="st-2">
+								<p>所在货架</p>
+								<ul id="index6">
+
+								</ul>
+							</div>
+							<div class="st-3">
+								<p> 入库时间</p>
+								<ul id="index7">
+
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<script>
+				const oitems1 = document.querySelector(".items-1")
+				const oitems2 = document.querySelector(".items-2")
+				const oitems3 = document.querySelector(".items-3")
+				const off = document.querySelector("#off")
+				const off2 = document.querySelector("#off-2")
+				const off3 = document.querySelector("#off-3")
+				good1.onclick = function () {
+					oitems1.classList.remove("active")
+				}
+				off.onclick = function () {
+					oitems1.classList.add("active")
+				}
+				good2.onclick = function () {
+					oitems2.classList.remove("active")
+				}
+				off2.onclick = function () {
+					oitems2.classList.add("active")
+				}
+				good3.onclick = function () {
+					oitems3.classList.remove("active")
+				}
+				off3.onclick = function () {
+					oitems3.classList.add("active")
+				}
+				const input = document.querySelector("#input")
+				const dan = document.querySelectorAll("#standerd li")
+				const oorder = document.querySelectorAll("#index1 li")
+				const ppostion = document.querySelectorAll("#index2 li")
+				const pperson = document.querySelectorAll("#index3 li")
+				var index5 = document.querySelector("#index5")
+				var index6 = document.querySelector("#index6")
+				var index7 = document.querySelector("#index7")
+
+				search.onclick = function () {
+					console.log(index5.children.length)
+					if (!(index5.children.length === 0)) {
+						location.reload
+					}
+					var num = input.value
+					console.log(num)
+					for (let i = 0; i < dan.length; i++) {
+						console.log(dan[i].textContent)
+						if (num == (dan[i].textContent)) {
+							var order = document.createElement("li")
+							order.innerHTML = oorder[i].textContent
+							var postion = document.createElement("li")
+							postion.innerHTML = ppostion[i].textContent
+							var person = document.createElement("li")
+							person.innerHTML = pperson[i].textContent
+							index5.appendChild(order)
+							index6.appendChild(postion)
+							index7.appendChild(person)
+						}
+
+					}
+
+
+				}
+
+			</script>
+			<script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+			<script type="text/javascript">
+				$(function () {
+					$(' #da-thumbs > li ').each(function () { $(this).hoverdir(); });
+				});
+			</script>
+		</div>
+	</div>
+	<!--//gallery-->
+	<!--services-->
+	<div id="services" class="services">
+		<div class="container">
+			<div class="ser-head">
+				<h3>特色服务</h3>
+			</div>
+			<div class="wel-grids">
+				<div class="col-md-4 wel-grid text-center">
+					<div class="btm-clr">
+						<figure class="icon">
+							<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+						</figure>
+						<h3>VOLUPTATEM</h3>
+						<p> Nemo enim ipsam voluptatem
+							quia voluptas sit aspernatur aut
+							odit aut fugi.</p>
+					</div>
+				</div>
+				<div class="col-md-4 wel-grid btm-gre text-center">
+					<div class="btm-clr">
+						<figure class="icon">
+							<span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+						</figure>
+						<h3>VOLUPTATEM</h3>
+						<p> Nemo enim ipsam voluptatem
+							quia voluptas sit aspernatur aut
+							odit aut fugi.</p>
+					</div>
+				</div>
+				<div class="col-md-4 wel-grid text-center">
+					<div class="btm-clr">
+						<figure class="icon">
+							<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+						</figure>
+						<h3>VOLUPTATEM</h3>
+						<p> Nemo enim ipsam voluptatem
+							quia voluptas sit aspernatur aut
+							odit aut fugi.</p>
+					</div>
+				</div>
+				<div class="col-md-4 wel-grid btm-gre text-center">
+					<div class="btm-clr">
+						<figure class="icon">
+							<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+						</figure>
+						<h3>VOLUPTATEM</h3>
+						<p> Nemo enim ipsam voluptatem
+							quia voluptas sit aspernatur aut
+							odit aut fugi.</p>
+					</div>
+				</div>
+				<div class="col-md-4 wel-grid text-center">
+					<div class="btm-clr">
+						<figure class="icon">
+							<span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+						</figure>
+						<h3>VOLUPTATEM</h3>
+						<p> Nemo enim ipsam voluptatem
+							quia voluptas sit aspernatur aut
+							odit aut fugi.</p>
+					</div>
+				</div>
+				<div class="col-md-4 wel-grid btm-gre text-center">
+					<div class="btm-clr">
+						<figure class="icon">
+							<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+						</figure>
+						<h3>VOLUPTATEM</h3>
+						<p> Nemo enim ipsam voluptatem
+							quia voluptas sit aspernatur aut
+							odit aut fugi.</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--//services-->
+	<!--news-->
+	<div class="news">
+		<div class="container">
+			<h3>NEWSLETTER SIGN UP</h3>
+			<p> Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing. </p>
+			<div class="na-m">
+				<div class="name">
+					<form>
+						<input type="text" placeholder="Enter email id" required="">
+					</form>
+				</div>
+				<div class="button">
+					<form>
+						<input type="submit" value="Subscribe">
+					</form>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//news-->
+	<!-- get-in -->
+	<div id="contact" class="get-in-touch">
+		<div class="container">
+			<div class="get-info text-center">
+				<h3>联系我们</h3>
+				<h4><i>Feel Free To Contact Us</i></h4>
+				<p>Lorem ipsum dolor amet, libero turpis non cras ligula, id commodo, aenean est in volutpat amet
+					sodales, porttitor bibendum facilisi suspendisse</p>
+			</div>
+		</div>
+	</div>
+	<!-- //get-in -->
+	<!-- contact-us -->
+	<div class="contact-us">
+		<div class="container">
+			<div class="contact-grids">
+				<div class="col-md-4 contact-grid text-center">
+					<div class="point-icon"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+					</div>
+					<p>xxxxxxxxxxxxx</p>
+				</div>
+				<div class="col-md-4 contact-grid text-center">
+					<div class="point-icon"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></div>
+					<p><a href="mailto:info@example.com">xxxxxxxxxx.com</a></p>
+				</div>
+				<div class="col-md-4 contact-grid text-center">
+					<div class="point-icon"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></div>
+					<p>123456789</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="contact-info">
+				<form>
+					<input type="text" placeholder="Your Name" required>
+					<input type="text" placeholder="Your E-Mail" required>
+					<input type="text" placeholder="Subject" required>
+					<textarea placeholder="Your Message" required></textarea>
+					<input type="submit" value="SEND MESSAGE">
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- //contact-us -->
+	<!-- footer -->
+	<div class="copy-right">
+		<div class="container">
+			<p>xxx快递公司所有</p>
+		</div>
+	</div>
+	<!-- footer -->
+	<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+			$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- //smooth scrolling -->
+</body>
+
+</html>
